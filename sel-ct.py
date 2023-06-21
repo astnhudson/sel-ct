@@ -54,7 +54,7 @@ with open(show_name_here + ".txt", 'w', encoding='UTF8') as episode_links:
 
 # Open a link to each subtitle file
 # Rename the downloaded file to the episode name
-# The sleep function is a terrible choice and this should eb optimized with waiting for the element to load.
+# The sleep function is a terrible choice and this should be optimized with waiting for the element to load.
 incident_count = 0
 for i in series_links:
     driver.get(i)
